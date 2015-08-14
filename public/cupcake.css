@@ -1,0 +1,110 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'groovybaby' sans-serif;;
+
+}
+
+header{
+  font-size:70px;
+  text-align: center;
+  height:32vh;
+  width:100%;
+  margin-right:50px;
+  background-size:contain;
+  background-color:#605AB0;
+  background-repeat: no-repeat;
+}
+
+.cupcake-holder{
+  display: inline-block;
+  width:500px;
+}
+
+.cupcake{ 
+height: 70vh;
+  background-color:white;
+  width:210%;
+  display: inline-block;
+  margin-top:20px;
+  border-radius:15px;
+  color:black;
+  border:solid 5px black;
+  line-height: 45px;
+}
+
+.Header-c{
+  height: 50vh;
+  background-color:white;
+  width:210%;
+  position:right;
+  float:right;
+  display: inline-block;
+  border-radius:15px;
+  color:black;
+  border:solid 5px black;
+  line-height: 45px;
+}
+
+.cupcake-buttons{
+  width:210%;
+  display: inline-block;
+  float:right;
+  border:solid 1px black;
+  margin-bottom:10px;
+
+}
+.checkbox{
+  display: inline-block;
+  vertical-align: top;  
+
+}
+.cupcake{
+  display:inline-block;
+}
+
+.page-container{
+  float:right;
+  margin-right:10px;
+}
+
+.edit-name{
+  color:black;
+}
+.edit-sprinkles{
+  color:black;
+}
+button{
+  border:solid 1px black;
+  height:5%;
+  border-radius:30%;
+  color: white;
+  background-color: black;
+}
+.delete-button{
+  float:right;
+  height:5%;
+  border-radius:30%;
+}
+
+
+.edit-cupcake{
+  display: inline-block;
+  width:70%;
+  float:right;
+  margin:10px;
+}
+
+.cupcake-container{
+  color:blue;
+  border:solid 2px white;
+}
+#cupcake-count{
+  color:white;
+  display: inline-block;
+  position:relative;
+}
+.sub{
+  font-size: 30px;
+}
